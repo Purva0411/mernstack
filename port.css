@@ -1,0 +1,69 @@
+#nav{
+    height:80px;
+    width:100%;
+    background: linear-gradient(to right,rgb(210, 171, 250),rgb(152, 3, 252));
+    position:fixed;
+    top:0;
+    right:0;
+    display: flex;
+    align-items:centre;
+    gap: 700px;
+    justify-content: center;
+}
+#nav ul{
+    list-style: none;
+    display: flex;
+    gap:30px;
+}
+#nav ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+#nav ul li a:hover{
+    color:rgb(243, 219, 60);
+}
+#nav h2{
+    color:white;
+}
+#home{
+    background: linear-gradient(to right, #f093fb, #f5576c);
+    height:700px;
+    width:100vw;
+    padding-left: 40px;
+    padding-top: 80px;
+   
+}
+#home h1{
+    color:white;
+    padding-top: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 300%;
+}
+#home h3{
+    color:white;
+
+}
+#home button{
+    width: 130px;
+    height:40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(250, 66, 5);  
+}
+
+#about h1{
+    text-align: center;
+    font-size: 200%;
+}
+#about p{
+    padding-left: 150px;
+    font-size: large;
+}
+
+#about div h3{
+    color:blue;
+}
+#about div ul li{
+    list-style: none;
+}

@@ -1,0 +1,26 @@
+@keyframes fadeIn{
+    0%{
+        transform: translate(0px,0px) ;
+    }
+    25%{
+        transform:translate(500px,0px);
+    }
+    50%{
+        transform:translate(500px,500px);
+    }
+    75%{
+        transform:translate(0px,500px);
+    }
+    100%{
+        transform: translate(0px,0px) ;
+    }
+}
+
+
+.box{
+    Width: 300px;
+    height: 300px;
+    text-align:center;
+    background-color:blueviolet;
+    animation:fadeIn 2s ease-in-out infinite;
+}
